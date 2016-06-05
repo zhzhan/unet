@@ -2,8 +2,6 @@
 # UNET
 UNET is a multi-core based, high performance machine learning framework, built on top of Spark,  supporting both data parallel and model parallel in massive scale.
 
-Currently, UNET is based on Spark-2.0 (not released yet), but the source code is not made public yet. If you are interested, please contact me at zhazhan@gmail.com
-
 #Running TestCases
     mvn package -DskipTests
     ./mnist.sh
